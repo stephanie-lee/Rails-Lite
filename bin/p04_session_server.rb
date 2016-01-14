@@ -5,7 +5,7 @@ class MyController < ControllerBase
   def go
     session["count"] ||= 0
     session["count"] += 1
-    render :counting_show
+    render :count
   end
 end
 
